@@ -53,6 +53,7 @@
 	<modules>
 		<module>core</module>
 		<module>druid-spring-boot-starter</module>
+		<module>druid-spring-boot-3-starter</module>
 		<module>druid-wrapper</module>
 		<module>druid-demo-petclinic</module>
 	</modules>
@@ -478,7 +479,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>enable-incubators-for-jdk17+</id>
+			<id>enable-for-jdk17+</id>
 			<activation>
 				<jdk>[17,)</jdk>
 			</activation>
